@@ -1,0 +1,14 @@
+/* .darkmode{
+    color: white;
+    background-color: black;
+} */
+
+.light{
+    background-color:  green;
+    color: white;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}

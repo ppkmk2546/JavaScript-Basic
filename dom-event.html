@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Event</title>
+</head>
+<body onload="welcome()"> <!-- ? Dom-event-->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias eius fugit praesentium laboriosam? Recusandae sunt iste voluptatum nisi alias expedita?</p>
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)"> <!-- ? Dom-event-->
+    <textarea name="" id="" onfocus="hightlight(this)" onblur="unhightlight(this)"></textarea>
+
+    <hr>
+
+    <label for="">เลือกภาษาที่ชอบ</label>
+    <select name="" id="menu" onchange="getMenu()"> <!-- ? Dom-event-->
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+    <p id="display"></p>
+
+    <a href="" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Google</a> <!-- ? Dom-event-->
+    <a href="" onmouseover="hightlight(this)" onmouseout="unhightlight(this)">Youtube</a>
+    <br>
+    <hr>
+    <label for="">เลือกภาษาที่ชอบ</label>
+    <select name="" id="menu_2"> <!-- ? Dom-event-->
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+    <p id="display_2"></p>
+    <script src="dom.event.js"></script>
+
+    
+</body>
+</html>
